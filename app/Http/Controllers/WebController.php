@@ -11,7 +11,7 @@ class WebController extends Controller
     {
         $repository = app()->make(CurrencyRepositoryInterface::class);
         $command = new GetPopularCurrenciesCommandHandler($repository);
-        $array = $command->handle();
+        $array = $command->handle(3);
         return view('popular_currencies', compact('array'));
     }
 }
