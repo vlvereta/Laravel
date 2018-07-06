@@ -12,7 +12,7 @@ Exercise #5 on PHP Course for Binary Studio Academy 2018.
 Установка показана в рабочем окружении OS Linux:
 
 ```
-git clone git@github.com:vlvereta/Laravel.git
+git clone https://github.com/vlvereta/Laravel.git
 cd Laravel
 composer install
 php artisan key:generate
