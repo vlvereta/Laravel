@@ -1,4 +1,4 @@
-# Laravel_5.4
+# Laravel
 Exercise #5 on PHP Course for Binary Studio Academy 2018.
 
 #### Требования
