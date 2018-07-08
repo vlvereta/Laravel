@@ -28,9 +28,6 @@ class GetPopularCurrenciesCommandHandler
      * @return int
      */
     private function compare(Currency $a, Currency $b) {
-        if ($a->getPrice() == $b->getPrice()) {
-            return 0;
-        }
-        return ($a->getPrice() > $b->getPrice() ? -1 : 1);
+        return $b->getPrice() <=> $a->getPrice();
     }
 }

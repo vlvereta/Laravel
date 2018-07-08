@@ -15,6 +15,7 @@ Exercise #5 on PHP Course for Binary Studio Academy 2018.
 git clone https://github.com/vlvereta/Laravel.git
 cd Laravel
 composer install
+cp .env.example .env
 php artisan key:generate
 ```
 Также рекомендуется использовать Homestead для поднятия приложения.
